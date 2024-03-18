@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import ArticlesList from './ArticlesList';
 import './App.css'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
- const [articles, setArticles] = useState([]);
 
 
 
