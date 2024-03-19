@@ -73,7 +73,7 @@ const ArticleDetail = () => {
                 <div className='mt-7 rounded-xl border-4 border-sky-500 w-3/5 bg-sky-50 p-6 self-center flex flex-col gap-5 items-center'>
                     <h1 className='text-2xl font-bold'>{data.title}</h1>
                     <div>
-                        <h3 className='font-medium'>Publicado {formatDate(data.published_at)}</h3>
+                        <h3 className='font-medium'>Públicado {formatDate(data.published_at)}</h3>
                         <h3 className='font-medium'>Actualizado {formatDate(data.updated_at)}</h3>
                     </div>
                     

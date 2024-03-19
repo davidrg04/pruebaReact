@@ -93,7 +93,7 @@ const ArticlesList = () =>{
             <div className="mx-auto w-4/5 border-4 border-sky-400 rounded-lg bg-sky-300 flex flex-col mt-4 shadow-lg">
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-4 p-4">
                 {data.results.map((article) => (
-                    <ArticleCard title={article.title} url={article.url} image_url={article.image_url} id={article.id}/>
+                    <ArticleCard key={article.url} title={article.title} url={article.url} image_url={article.image_url} id={article.id}/>
                 ))}
                 </div>
             </div>
